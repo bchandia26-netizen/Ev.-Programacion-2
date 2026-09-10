@@ -7,7 +7,7 @@ public class Damage : MonoBehaviour
     private void OnTriggerEnter2D(Collider2D collision)
     {
         // Comunicación dinámica: buscamos si el objeto tiene PlayerStats
-        PlayerLife stats = collision.GetComponent<PlayerLife>();
+        PlayerStats stats = collision.GetComponent<PlayerStats>();
 
         if (stats != null) // Si no es nulo, significa que es el jugador
         {

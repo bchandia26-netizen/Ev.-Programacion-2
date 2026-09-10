@@ -1,6 +1,6 @@
 using UnityEngine;
 
-public class MovPlayer : MonoBehaviour
+public class PlayerMov : MonoBehaviour
 {
     public float Velocidad = 5f;
     public float FuerzaSalto = 10f;

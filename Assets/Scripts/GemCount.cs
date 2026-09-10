@@ -1,6 +1,6 @@
 using UnityEngine;
 
-public class PlayerGem : MonoBehaviour
+public class GemCount : MonoBehaviour
 {
     public int gemValue = 1;
 
